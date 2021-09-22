@@ -14,7 +14,6 @@ sudo rm -r /home/pi/moonraker/moonraker/components/machine.py
 
 #Копирование
 sudo cp -r /home/pi/restore_wifi/system.py /home/pi/KlipperScreen/panels/system.py
-sudo cp -r /home/pi/restore_wifi/backup_files/machine.py /home/pi/moonraker/moonraker/components/machine.py
-
+sudo cp -r /home/pi/restore_wifi/machine.py /home/pi/moonraker/moonraker/components/machine.py
 
 sudo reboot
