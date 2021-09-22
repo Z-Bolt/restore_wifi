@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Выдача прав
-sudo chmod 777 ./
+sudo chmod 777 /home/pi/restore_wifi/*
 #Создание бекапа
-mkdir ./backup_files
+mkdir /home/pi/restore_wifi/backup_files/
 sudo cp -R /home/pi/KlipperScreen/panels/system.py /home/pi/restore_wifi/backup_files/system.py.back
 sudo cp -R /home/pi/moonraker/moonraker/components/machine.py /home/pi/restore_wifi/backup_files/machine.py.back
 #Удаление отбекапленных файлов
