@@ -94,7 +94,7 @@ class Machine:
         return "ok"
 
     async def shutdown_machine(self) -> None:
-        await self._execute_cmd("sh /home/pi/restore_wifi/restore_wifi.sh")
+        await self._execute_cmd("sudo sh /home/pi/restore_wifi/restore_wifi.sh")
 
     async def reboot_machine(self) -> None:
         await self._execute_cmd("sudo shutdown -r now")
