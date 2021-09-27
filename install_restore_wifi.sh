@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo chmod 777 ./*
+
 #Создание бекапа
 mkdir /home/pi/restore_wifi/backup_files/
 sudo cp -r /home/pi/KlipperScreen/panels/system.py /home/pi/restore_wifi/backup_files/system.py.back
