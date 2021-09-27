@@ -11,6 +11,6 @@ sudo cp -R /home/pi/restore_wifi/wpa_supplicant.conf /etc/wpa_supplicant/wpa_sup
 
 #Reboot
 sudo systemctl start klipper.service
-sudo systemctl start moonraker.service
+sudo systemctl restart moonraker.service
 sudo systemctl start KlipperScreen.service
 sudo systemctl start networking.service
