@@ -15,7 +15,7 @@
 
 Для того чтобы выполнить настройку в автоматическом режиме, нужно выполнить следующие команды:
 
-`sudo chmod 777 ./install_restore_wifi.sh`
+`sudo chmod 777 ./install_restore_wifi.sh`<br>
 `./install_restore_wifi.sh `
 
 Где sudo - выполнение команды от имени пользователя root;
