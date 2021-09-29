@@ -17,7 +17,7 @@ sudo cp -r /home/pi/restore_wifi/network_restore.svg /home/pi/KlipperScreen/styl
 #Выдача прав
 sudo chmod 777 /home/pi/KlipperScreen/panels/system.py
 sudo chmod 777 /home/pi/moonraker/moonraker/components/machine.py
-sudo chmod 777 /home/pi/restore_wifi/restore_wifi.sh
+sudo chmod u=rw,og=r /home/pi/restore_wifi/restore_wifi.sh
 
 #Перезагрузка
 sudo reboot
